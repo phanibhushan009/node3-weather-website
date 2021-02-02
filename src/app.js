@@ -42,6 +42,12 @@ app.get('/help', (req, res) => {
 
     })
 })
+app.get('/aero', (req, res) => {
+    res.render('aero', {
+        title: 'Aero India',
+        name: 'NFTC'
+    })
+})
 
 /*app.get('', (req, res) => {
     res.send('<h1> Weather</h1>')
