@@ -49,6 +49,12 @@ app.get('/aero', (req, res) => {
     })
 })
 
+app.get('/aero3d', (req, res) => {
+    res.render('aero3d', {
+        title: 'Aero India 3d',
+        name: 'NFTC'
+    })
+})
 /*app.get('', (req, res) => {
     res.send('<h1> Weather</h1>')
 
